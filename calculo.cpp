@@ -9,4 +9,15 @@ int main() {
     valarray<double> resta = numeros - 10.0;
     valarray<double> multiplicacion = numeros * 2.0;
     valarray<double> division = numeros / 2.0;
+
+    cout << "Suma: " << endl;
+    for(auto &num : suma) cout << num << " ";
+    cout << "\nResta: " << endl;
+    for(auto &num : resta) cout << num << " ";
+    cout << "\nMultiplicacion: " << endl;
+    for(auto &num : multiplicacion) cout << num << " ";
+    cout << "\nDivision: " << endl;
+    for(auto &num : division) cout << num << " ";
+
+    return 0;
 }
